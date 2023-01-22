@@ -38,6 +38,7 @@ label{
    background-color: #EEE;
 }
 #textarea{
+   outline: none;
    background-color: #EEE;
 
 }
