@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.loderarea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    gap: 10px;
+
+}
+.loder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px ;
+    width: 50px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+.main-container{
+    height: 90vh;
+}
+.main-container .form-areas .form{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    margin: 10px auto;
+    gap: 10px;
+   
+}
+.main-container .form-areas form input{
+   padding: 10px;
+   outline: none;
+   background-color: #EEE;
+}
+#textarea{
+   background-color: #EEE;
+
+}
+.main-container .form-areas form button{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+}
